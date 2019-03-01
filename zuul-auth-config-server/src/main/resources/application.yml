@@ -5,8 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/liumapp/spring-cloud-zuul-authentication/
+          uri: https://github.com/raymoe/spring-cloud-zuul-authentication.git
           search-paths: conf
+          username: raymoe
+          password: raymoe1989
 
 server:
   port: 7001
